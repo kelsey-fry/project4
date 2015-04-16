@@ -1,0 +1,15 @@
+header {
+	font-family: Cinzel, serif;
+	font-size: 60;
+}
+
+#results {
+	height: 100px;
+	/* width: 100%; */
+	border: solid black 1px;
+}
+
+#results  img{
+	height: 100%;
+	width: 100px;
+}
