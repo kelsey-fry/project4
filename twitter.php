@@ -52,13 +52,13 @@ foreach($tweetData['statuses'] as $items)
 {
 	$userArray = $items['user'];
 	
-	echo "<a href='https://twitter.com/" . $userArray['screen_name'] . "' target='_blank'><img src='" . $userArray['profile_image_url'] . "'>	" . $userArray['screen_name'] . "</a></br>";
+	echo "<a href='https://twitter.com/" . $userArray['screen_name'] . "' target='_blank'><img src='" . $userArray['profile_image_url'] . "'>	@" . $userArray['screen_name'] . "</a></br>";
 	// echo "<img src='" . $userArray['profile_image_url'] . "'>	" . $userArray['screen_name'] . "</br>";
 	// echo $items['statuses'];
 	// echo $items['text'] . "</br>";
 	// echo $items['created_at'] . "</br>";
 	// echo $items['statuses'];
-	echo "<a href='https://twitter.com/" . $userArray['screen_name'] . "/status/" . $items['id'] . "' target='_blank'></br>" . $items['text'] . $items['created_at'] . "</br></a>";
+	echo "<a href='https://twitter.com/" . $userArray['screen_name'] . "/status/" . $items['id'] . "' target='_blank'></br>" . $items['text'] . " " . $items['created_at'] . "</br></a>";
 	// echo $items['text'] . "</br>";
 	// echo $items['created_at'] . "</br></a></div>";
 	

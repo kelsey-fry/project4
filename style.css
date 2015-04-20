@@ -21,7 +21,7 @@ p {
 	width: 100%;
 	/* border: solid black 1px; */
 	overflow: hidden;
-	float: right;
+	/* float: right; */
 }
 
 #results  img{
@@ -29,8 +29,21 @@ p {
 	width: 100px;
 }
 
-iframe {
+#results  img:hover{
+	text-decoration: none;
+}
+
+/* #twitterfeed:a{
+	text-decoration: none;
+} */
+
+/* iframe {
 	width: 100%;
 	height: 100%;
 	border: none;
+
+} */
+
+#video {
+	margin-bottom: 30px;
 }
